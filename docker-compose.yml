@@ -1,0 +1,12 @@
+version: '3' # Version
+
+services: # Se crea un servicio para el contenedor de la base de datos
+  db:
+    image: mongo:latest
+    restart: always
+    ports:
+      - 27017:27017 # Conecto mi puerto 27017 a al puerto 27017 del contenedor (maquina virtual)
+    environment:
+      MONGO_DATABASE: nest-pokemon
+    volumes: 
+      - ./mongo:/data/db # Espacio de almacenamiento para los datos de la base de datos
