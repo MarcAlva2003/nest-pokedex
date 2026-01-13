@@ -14,6 +14,7 @@ async function bootstrap() {
       // transform: false,
       transformOptions: {
         exposeUnsetFields: false,
+        enableImplicitConversion: true, // Permite transformar los datos de tipo string a tipo number y viceversa (por ejemplo, limit: number -> "10" -> 10)
       },
     }),
   );

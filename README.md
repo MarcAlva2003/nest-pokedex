@@ -22,6 +22,11 @@ docker-compose up -d
 pnpm run start:dev
 ```
 
+### 6. Ejecutar la seed de la base de datos
+```
+http://localhost:3000/api/v2/seed
+```
+
 # Stack
 ### * MongoDB
 ### * NestJS
