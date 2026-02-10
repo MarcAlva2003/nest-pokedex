@@ -2,6 +2,8 @@
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a>
 </p>
 
+Este es un ejercicio del curso[Curso de Nest](https://www.udemy.com/course/nest-framework/) de Udemy.
+
 # Ejecutar en desarrollo
 ### 1. Clonar repositorio
 ### 2. Ejecutar
