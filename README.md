@@ -17,12 +17,16 @@ pnpm i -g @nestjs/cli
 docker-compose up -d
 ```
 
-### 5. Ejecutar
+### 5. Clonar env.template y renombrar a .env
+
+### 6. Llenar las variables de entorno definidas en .env
+
+### 7. Ejecutar
 ```
 pnpm run start:dev
 ```
 
-### 6. Ejecutar la seed de la base de datos
+### 8. Ejecutar la seed de la base de datos
 ```
 http://localhost:3000/api/v2/seed
 ```
